@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.searchbox{
+    align-items: flex-end;
+  }
+  .searchbutton{
+    font-size: large;
+    background-color:  #241b1b;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+.img{
+    background: url('p6.jpg');
+    width: 203.75vh;
+    height: 325vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+
+  }
+
+nav{
+    position: fixed;
+    background: #0e0c0c;
+    width: 100%;
+    padding: 23px 0;
+    z-index: 12;
+} 
+nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+.menu .logo a{
+    text-decoration: none;
+    color: #fff;
+
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.menu ul{
+    display: inline-flex;
+}
+
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+
+.tread{
+  padding-top: 10%;
+  padding-left: 2%;
+  color: white;
+}
+
+.picture{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.picture1{
+  padding-right: 1%;
+  padding-top: 1%; 
+}
+
+.row1{
+  width:16%;
+  padding-left: 4%;
+  padding-top: 1%;
+}
+
+.picture1:hover{
+    background-color: black;   
+}
+
+.row2{
+  display: flex;
+  margin: 0;
+  line-height:  0;
+}
+
+.test {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  text-align: center; 
+}
+
+.test img {
+  display: block;
+  margin: 0 auto;
+}
+
+.dow{
+  color: white;
+  display:flex
+}
+.dow{
+  display: flex;
+  margin: 0;
+  line-height:  0;
+}
+
+.ms{
+  border: 0px solid black;
+  color: white;
+  text-align: center;
+}
+.ms p{
+  margin-top: 20px;
+}
+
+
+.ms p a{
+  text-decoration:none;
+  color: white;
+}
+body{
+  margin-top: -22px;
+}
+.row3{
+  display: flex;
+
+}
+.ms{
+  margin-left: 20px;
+}
